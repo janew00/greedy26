@@ -3,7 +3,13 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class greedy26 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+        
+        long startTime = 0;
+        long endTime = 0;
+        long diffTime = 0;
+        startTime = System.currentTimeMillis();
+        
         Scanner sc = new Scanner(System.in);
         System.out.print("배낭에 넣을 물건의 개수를 입력하세요: ");
         int n = sc.nextInt(); // 물건 개수
@@ -19,6 +25,10 @@ public class greedy26 {
         }
         double maxValue = backpack(w, v, c); // 배낭의 최대 가치
         System.out.println("배낭에 담긴 물건들의 가치 합 => " + maxValue);
+        
+        endTime   = System.currentTimeMillis();
+        diffTime  = endTime - startTime;
+        System.out.println("실행 시간 = "+ diffTime + "ms");
     }
     private static double backpack(int[] w, int[] v, int c) {
         stuff[] thing = new stuff[w.length]; // 물건 개수 크기의 stuff 객체 배열 생성
