@@ -125,6 +125,7 @@ public static void main(String[] args) {
     }
 ```
 ### 실행시간 측정
+-> 물건의 개수 외에는 모두 랜덤으로 입력받음
 ```java
 long startTime = 0;
         long endTime = 0;
@@ -143,14 +144,14 @@ long startTime = 0;
   | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
   | 시간(ms) | 17    | 18    | 20    | 21    | 23    | 22    |
 
-![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfMjMw/MDAxNjE4MTU4MDE4Njk3.suz9lN8ASSgUmVEiRWoRvkWTjsj3T37tkOkd2BxNAHEg.rB3j-QdDWDIzc1gRMFvTt2vrSVi2UbGCpmtt4ywo-DMg.PNG.hongsubakgame/image.png?type=w966)
+![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfODkg/MDAxNjE4MTU5NDYwNTcw.NnRo4wrQP5BRWejftOrJiK6_25dOhwwsuXSUcJgaaFQg.79YLAudwyQi5gASSmb5p4J-oPo5myz6IBtXMb1cJ9M8g.PNG.hongsubakgame/image.png?type=w966)
 
 ### 이론값
   | 물건의 개수 | 5   | 10   | 15   | 20   | 25   | 30   |
   | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
   | 시간(ms) | 11.6    | 33.2    | 58.6    | 86.4    | 116    | 147    |
 
-![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfNDIg/MDAxNjE4MTU4MTg2MjI3.rgA8URK_FbQ8C8oFvIVoecL79bmHO2H_-nVZjPpuNnMg.Rm-yEKi8bBu1C6YSU4Y56fXWOSGd0KUfmphE_C0m9tUg.PNG.hongsubakgame/image.png?type=w966)
+![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfMTg4/MDAxNjE4MTU5NDExMjA2.C4hC304Ynk_ahJd9ukHwmK1ZTD6hdl2qmogItQKTbqEg.Qb6sq_6qpCjmIIlvoHHT86L4PsBaLDBf1x3ocIZZJKMg.PNG.hongsubakgame/image.png?type=w966)
 
-- 측정값과 이론값 비교
-![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfMjYy/MDAxNjE4MTU3ODg3NzU3.PzHx_OVLGG1JcYujp3Yr1lgyYGscUAPi4jKJx1Lkt3og.vQzf4e2nIPmRW0mqGAlCbyIeOm8_RyaPwYf0yNAisEQg.PNG.hongsubakgame/image.png?type=w966)
+### 측정값과 이론값 비교
+![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfMTAw/MDAxNjE4MTU5MzUyMjM2.bogBfSX3TkrWsbyYztjYfpOHqJudqTZ5PEEpydp3LhYg.5K-j1EgSeFDgQvnf916uiLhxsbjP4rFJonpGGtjKzM0g.PNG.hongsubakgame/image.png?type=w966)
