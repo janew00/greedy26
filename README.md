@@ -14,7 +14,7 @@
 - 그렇지 않다면 현재 가방에 담을 수 있는 용량 만큼 쪼개서 담고 가치는 비율만큼 계산하여 더해주고 루프를 빠져나온다.
 
 ### 예시)
-
-![다운로드](https://user-images.githubusercontent.com/80371590/114296868-7c187580-9ae8-11eb-9e51-22982f65ad29.png) ![제목 없음](https://user-images.githubusercontent.com/80371590/114296876-80dd2980-9ae8-11eb-9ec8-c57eb86673f0.png)
+<img width="100" alt="부분 배낭" src=https://user-images.githubusercontent.com/80371590/114296868-7c187580-9ae8-11eb-9e51-22982f65ad29.png> <img width="200" alt="배열" src=https://user-images.githubusercontent.com/80371590/114296876-80dd2980-9ae8-11eb-9ec8-c57eb86673f0.png> 
+ 
 
 ->  최종적으로 배낭에 담긴 물건들의 리스트와 배낭에 담긴 물건들의 가치의 합을 리턴하여 얻게된다.
