@@ -28,7 +28,7 @@
  ->  최종적으로 배낭에 담긴 물건들의 리스트와 배낭에 담긴 물건들의 가치의 합을 리턴하여 얻게된다.
 
 
-### 시간복잡도 )
+### 시간복잡도)
 
 <p align="center"><img width="500" alt="부분 배낭" src=https://user-images.githubusercontent.com/80371590/114297319-e500ed00-9aea-11eb-865b-5a673d8e6a0c.png>
   
