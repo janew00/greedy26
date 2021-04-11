@@ -1,2 +1,2 @@
 # greedy26
-![2](https://user-images.githubusercontent.com/80371590/114295855-d7e00000-9ae2-11eb-8a0c-2875140738e8.jpg width="100" height="100")
+<p align="center"><img width="30%" alt="이름표" src="https://user-images.githubusercontent.com/80371590/114296062-11fdd180-9ae4-11eb-8832-cf359270f35c.jpg"></p>
