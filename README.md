@@ -15,7 +15,7 @@
 
 ### 예시)
 <p align="center"><img width="300" alt="부분 배낭" src=https://user-images.githubusercontent.com/80371590/114296868-7c187580-9ae8-11eb-9e51-22982f65ad29.png> 
-<img width="800" alt="배열" src=https://user-images.githubusercontent.com/80371590/114296876-80dd2980-9ae8-11eb-9ec8-c57eb86673f0.png> 
+<img width="1200" alt="배열" src=https://user-images.githubusercontent.com/80371590/114296876-80dd2980-9ae8-11eb-9ec8-c57eb86673f0.png> 
  
 
 ->  최종적으로 배낭에 담긴 물건들의 리스트와 배낭에 담긴 물건들의 가치의 합을 리턴하여 얻게된다.
