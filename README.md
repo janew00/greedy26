@@ -140,6 +140,7 @@ long startTime = 0;
         System.out.println("실행 시간 = "+ diffTime + "ms");
 ```
 - 물건의 개수에 따른 실행시간
+
   | 물건의 개수 | 5   | 10   | 15   | 20   | 25   | 30   |
   | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
   | 시간(ms) | 17    | 18    | 20    | 21    | 23    | 22    |
@@ -147,11 +148,14 @@ long startTime = 0;
 ![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfODkg/MDAxNjE4MTU5NDYwNTcw.NnRo4wrQP5BRWejftOrJiK6_25dOhwwsuXSUcJgaaFQg.79YLAudwyQi5gASSmb5p4J-oPo5myz6IBtXMb1cJ9M8g.PNG.hongsubakgame/image.png?type=w966)
 
 - 이론값
+
   | 물건의 개수 | 5   | 10   | 15   | 20   | 25   | 30   |
   | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
   | 시간(ms) | 11.6    | 33.2    | 58.6    | 86.4    | 116    | 147    |
 
 ![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfMTg4/MDAxNjE4MTU5NDExMjA2.C4hC304Ynk_ahJd9ukHwmK1ZTD6hdl2qmogItQKTbqEg.Qb6sq_6qpCjmIIlvoHHT86L4PsBaLDBf1x3ocIZZJKMg.PNG.hongsubakgame/image.png?type=w966)
 
-- 측정값과 이론값 비교   
+- 측정값과 이론값 비교 (검정색 : 이론값, 파란색 : 측정값)
+ 
 ![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfMTAw/MDAxNjE4MTU5MzUyMjM2.bogBfSX3TkrWsbyYztjYfpOHqJudqTZ5PEEpydp3LhYg.5K-j1EgSeFDgQvnf916uiLhxsbjP4rFJonpGGtjKzM0g.PNG.hongsubakgame/image.png?type=w966)
+-> 차이가 많이 남
