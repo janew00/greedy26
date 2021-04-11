@@ -124,3 +124,33 @@ public static void main(String[] args) {
         System.out.println("배낭에 담긴 물건들의 가치 합 => " + maxValue);
     }
 ```
+### 실행시간 측정
+```java
+long startTime = 0;
+        long endTime = 0;
+        long diffTime = 0;
+        
+        startTime = System.currentTimeMillis();
+        double maxValue = backpack(w, v, c); // 배낭의 최대 가치
+        System.out.println("배낭에 담긴 물건들의 가치 합 => " + maxValue);
+
+        endTime   = System.currentTimeMillis();
+        diffTime  = endTime - startTime;
+        System.out.println("실행 시간 = "+ diffTime + "ms");
+```
+### 물건의 개수에 따른 실행시간
+  | 물건의 개수 | 5   | 10   | 15   | 20   | 25   | 30   |
+  | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+  | 시간(ms) | 17    | 18    | 20    | 21    | 23    | 22    |
+
+![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfMjMw/MDAxNjE4MTU4MDE4Njk3.suz9lN8ASSgUmVEiRWoRvkWTjsj3T37tkOkd2BxNAHEg.rB3j-QdDWDIzc1gRMFvTt2vrSVi2UbGCpmtt4ywo-DMg.PNG.hongsubakgame/image.png?type=w966)
+
+### 이론값
+  | 물건의 개수 | 5   | 10   | 15   | 20   | 25   | 30   |
+  | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+  | 시간(ms) | 11.6    | 33.2    | 58.6    | 86.4    | 116    | 147    |
+
+![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfNDIg/MDAxNjE4MTU4MTg2MjI3.rgA8URK_FbQ8C8oFvIVoecL79bmHO2H_-nVZjPpuNnMg.Rm-yEKi8bBu1C6YSU4Y56fXWOSGd0KUfmphE_C0m9tUg.PNG.hongsubakgame/image.png?type=w966)
+
+- 측정값과 이론값 비교
+![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfMjYy/MDAxNjE4MTU3ODg3NzU3.PzHx_OVLGG1JcYujp3Yr1lgyYGscUAPi4jKJx1Lkt3og.vQzf4e2nIPmRW0mqGAlCbyIeOm8_RyaPwYf0yNAisEQg.PNG.hongsubakgame/image.png?type=w966)
