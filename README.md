@@ -49,6 +49,29 @@
 
 ![result](https://postfiles.pstatic.net/MjAyMTA0MTFfMjEz/MDAxNjE4MTQ2Nzc5ODU1.kQwzLAPijzIhsU2nwWITjVwx_ztXof658rvpNjGGWGwg.Bo7ni4qUMp6UFE2BZgGJ1F8Q4MMm9WPdvElDDAESA68g.PNG.hongsubakgame/image.png?type=w966)
 
+### 결론 도출 설명
+
+ |      | **물건 1**	| **물건 2**	| **물건 3**	| **물건 4** | 
+  | ---- | ---- | ---- | ---- | ---- |
+ | **무게**  |  50 	|  10	| 25	| 15 |
+  | **가치** | 5 | 60 | 10 | 75 | 
+  | **물건 무게당 가치** | 5/50=0.1 |	60/10=6	| 10/25=0.4	| 75/15=5 |
+  |**물건 무게당 가치  크기 순위**|④ |	①	|	③ 	② |
+
+- 물건 무게당 가치가 가장 큰 **_물건 2_** 전부 넣을 수 있는지 확인 -> 가능   
+  배낭에 들어갈 수 있는 최대 무게: 40 **>** 물건 2의 총 무게: 10  
+ 
+- 물건 무게당 가치가 2번째로 큰 **_물건 4_** 전부 넣을 수 있는지 확인 -> 가능   
+  현재 배낭에 들어갈 수 있는 최대 무게: (40-10)=30 **>** 물건 4의 총 무게: 15   
+ 
+- 물건 무게당 가치가 3번째로 큰 **_물건 3_** 전부 넣을 수 있는지 확인 -> 불가능   
+  현재 배낭에 들어갈 수 있는 최대 무게: (40-10-15)=15 **<** 물건 3의 총 무게: 25   
+   10:25 = x:15  
+=> **x=6**
+
+#### 배낭에 들어갈 수 있는 최대 가치: (물건 2 전부의 가치= 60)+(물건 4 전부의 가치= 75)+(물건 3 무게 15만큼의 가치= 6) <br> = 60+75+6 = **141**
+
+
 ### 소스코드
 - stuff 클래스
 ```java
@@ -158,4 +181,5 @@ long startTime = 0;
 - 측정값과 이론값 비교 (검정색 : 이론값, 파란색 : 측정값)
  
 ![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfMTAw/MDAxNjE4MTU5MzUyMjM2.bogBfSX3TkrWsbyYztjYfpOHqJudqTZ5PEEpydp3LhYg.5K-j1EgSeFDgQvnf916uiLhxsbjP4rFJonpGGtjKzM0g.PNG.hongsubakgame/image.png?type=w966)
--> 차이가 많이 남
+
+ -> 차이가 많이 남
