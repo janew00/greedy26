@@ -178,8 +178,4 @@ long startTime = 0;
 
 ![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfMTg4/MDAxNjE4MTU5NDExMjA2.C4hC304Ynk_ahJd9ukHwmK1ZTD6hdl2qmogItQKTbqEg.Qb6sq_6qpCjmIIlvoHHT86L4PsBaLDBf1x3ocIZZJKMg.PNG.hongsubakgame/image.png?type=w966)
 
-- 측정값과 이론값 비교 (검정색 : 이론값, 파란색 : 측정값)
- 
-![graph](https://postfiles.pstatic.net/MjAyMTA0MTJfMTAw/MDAxNjE4MTU5MzUyMjM2.bogBfSX3TkrWsbyYztjYfpOHqJudqTZ5PEEpydp3LhYg.5K-j1EgSeFDgQvnf916uiLhxsbjP4rFJonpGGtjKzM0g.PNG.hongsubakgame/image.png?type=w966)
-
- -> 차이가 많이 남
+ > 물건의 개수를 5개씩 증가시키면서 실행시간을 측정해보았다. 동일한 물건 개수의 실행시간을 측정할 때마다 같은 값이 나오진 않았지만 대체적으로 물건의 개수가 증가하면서 같이 증가하였고 실행시간의 그래프와 이론값 그래프의 형태가 비슷하게 나왔다.
